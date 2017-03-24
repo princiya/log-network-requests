@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Log network requests",
+  "version": "1.1",
+
+  "description": "Logs network requests as a web extension add-on.",
+  "icons": {
+    "48": "icons/log-48.png"
+  },
+
+  "background": {
+    "scripts": ["requests.js"]
+  },
+
+  "permissions": [
+    "webRequest",
+    "tabs"
+  ]
+
+}
