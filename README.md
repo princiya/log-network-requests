@@ -37,4 +37,4 @@ browser.webRequest.onBeforeRequest.addListener(
   {urls: [ "<all_urls>"]}
 );
 ```
-![Third Party Network Requests](https://github.com/princiya/log-network-requests/tree/master/screens/third-party-request-only.png)
+![Third Party Network Requests](https://github.com/princiya/log-network-requests/tree/master/screens/third-party-request-only.png?raw=true)
