@@ -67,3 +67,15 @@ function logURL(requestDetails) {
   document.getElementById("urls").innerHTML = thirdPartyUrls;
 }
 ```
+
+---
+#### Commit 5
+Visualising third party network requests using D3.js
+
+![google-viz](https://cloud.githubusercontent.com/assets/8022693/24334403/d03ae0b4-1269-11e7-8f2d-1ccd968df7b3.png)
+
+![yahoo-viz](https://cloud.githubusercontent.com/assets/8022693/24334405/d6d57182-1269-11e7-8e6d-96f683e799a0.png)
+
+![filmy-viz](https://cloud.githubusercontent.com/assets/8022693/24334411/de1fb7e0-1269-11e7-9a67-c2bbdd466093.png)
+
+Here's a [video](http://recordit.co/JE4amF5xmt) of the visualisations
