@@ -48,3 +48,22 @@ browser.webRequest.onBeforeRequest.addListener(
 The web extension now loads a html page in a new tab and logs third party network requests there.
 
 ![third-party-requests](https://cloud.githubusercontent.com/assets/8022693/24329774/9d2135c4-1210-11e7-85d2-978cf36ec453.gif)
+
+---
+#### Commit 4
+Logging unique third party hostnames:
+
+```
+function logURL(requestDetails) {
+  let url = requestDetails.url;
+  if (pattern &&
+  	/^http.*/.test(url) &&	 
+  		!pattern.match(getHostname(url))) {
+  			let uniqueUrl = getHostname(url);
+  			if (thirdPartyUrls.indexOf(uniqueUrl) === -1) {
+  				thirdPartyUrls.push(uniqueUrl);
+  			}
+  }
+  document.getElementById("urls").innerHTML = thirdPartyUrls;
+}
+```
