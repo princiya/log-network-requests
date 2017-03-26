@@ -3,8 +3,12 @@ Web extension to log network requests
 
 This project is part of my outreachy application for Mozilla's [Lightbeam](https://wiki.mozilla.org/User:Ptheriault/Outreachy2017) project.
 
+---
+#### Commit 1
 As a first step, I have created a web-extension to log network requests. Here's an example how to run this [web extension](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension).
 
+---
+#### Commit 2
 The web extension now logs only 3rd party network requests. Following logic has been used to filter 3rd party network requests:
 
 * Get URL of current tab:
@@ -38,3 +42,9 @@ browser.webRequest.onBeforeRequest.addListener(
 );
 ```
 ![third-party-request-only](https://cloud.githubusercontent.com/assets/8022693/24322800/652a54d4-116b-11e7-8998-3bfabc39861c.png)
+
+---
+#### Commit 3
+The web extension now loads a html page in a new tab and logs third party network requests there.
+
+![third-party-requests](https://cloud.githubusercontent.com/assets/8022693/24329774/9d2135c4-1210-11e7-85d2-978cf36ec453.gif)
