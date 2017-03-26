@@ -8,12 +8,16 @@
     "48": "icons/log-48.png"
   },
 
-  "background": {
-    "scripts": ["requests.js"]
-  },
-
   "permissions": [
     "webRequest",
     "tabs"
-  ]
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/log-48.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
 }
