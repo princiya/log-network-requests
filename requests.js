@@ -31,3 +31,7 @@ browser.webRequest.onCompleted.addListener(
   logURL,
   {urls: [ "<all_urls>"]}
 );
+
+function getThirdPartyUrls() {
+	return thirdPartyUrls;
+}
