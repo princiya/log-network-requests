@@ -79,3 +79,7 @@ Visualising third party network requests using D3.js
 ![filmy-viz](https://cloud.githubusercontent.com/assets/8022693/24334411/de1fb7e0-1269-11e7-9a67-c2bbdd466093.png)
 
 Here's a [video](http://recordit.co/JE4amF5xmt) of the visualisations
+
+---
+
+Visualisation ideas are discussed [here](https://github.com/princiya/log-network-requests/issues/2)
